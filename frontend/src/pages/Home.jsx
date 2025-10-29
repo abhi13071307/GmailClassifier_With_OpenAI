@@ -1,4 +1,3 @@
-// frontend/src/pages/Home.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -7,7 +6,6 @@ export default function Home() {
   const navigate = useNavigate();
 
   const handleGoogleLogin = () => {
-    // start server-side OAuth flow
     window.location.href = "http://localhost:5000/auth/google";
   };
 

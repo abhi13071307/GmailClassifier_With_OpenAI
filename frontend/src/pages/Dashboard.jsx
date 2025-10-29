@@ -1,4 +1,3 @@
-// frontend/src/pages/Dashboard.jsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -24,7 +23,6 @@ export default function Dashboard() {
     } else {
       navigate("/");
     }
-    // eslint-disable-next-line
   }, []);
 
   async function fetchEmails(token) {
